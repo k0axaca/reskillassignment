@@ -1,0 +1,26 @@
+@import "./_variables";
+
+.cars__sedan{
+    background: $Brightorange;
+}
+
+.cars__suv{
+    background: $Darkcyan;
+}
+
+.cars__luxury{
+    background: $Verydarkcyan;
+}
+
+
+// !=====================================================================
+
+.sedan-btn{
+    color: $Brightorange;
+}
+.suv-btn{
+    color: $Darkcyan;
+}
+.luxury-btn{
+    color: $Verydarkcyan;
+}

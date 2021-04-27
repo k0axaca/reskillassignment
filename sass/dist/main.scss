@@ -1,0 +1,68 @@
+@import "./_resets";
+@import "./_variables";
+@import "./_globals";
+@import "./_typography";
+@import "./_colors";
+@import "./_mixins";
+
+// <!-- =========================================================================================================== -->
+body{
+    background: $Verylightgray;
+}
+
+.cars{
+    padding-top: 170px;
+    padding-bottom: 30px;
+    @include breakpoint(768px){
+        padding-top: 100px;
+    }
+}
+
+.cars__grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    border-radius: 8px;
+    @include breakpoint(768px){
+        grid-template-columns: auto;
+    }
+}
+
+.bg{
+    padding-top: 46px;
+    padding-left: 46px;
+}
+
+button{
+    font-family: $lexendDeca;
+    font-size: 14.2px;
+    border: 2px solid $Verylightgray;
+    border-radius: 50px;
+    margin-top: 80px;
+    margin-bottom: 45px;
+    padding: 11.5px 27.6px;
+    @include breakpoint(768px){
+        margin-top: 20px;
+    }
+}
+
+button:hover{
+    background: transparent;
+    cursor: pointer;
+    color: $Verylightgray;
+}
+
+// <!-- =========================================================================================================== -->
+span{
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    font-family: $lexendDeca;
+    font-size: 14px;
+    color: hsl(184, 100%, 22%);
+    word-spacing: 1px;
+    a{
+        text-decoration: none;
+        color: hsl(31, 77%, 52%);
+    }
+}
+// <!-- =========================================================================================================== -->

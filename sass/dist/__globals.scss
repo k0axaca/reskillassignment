@@ -1,0 +1,12 @@
+@import "./_mixins";
+.container{
+    max-width: 908px;
+    margin: 0 auto;
+    padding: 0px 20px;
+    @include breakpoint(768px){
+        padding: 0px 60px;
+    }
+    @include breakpoint(500px){
+        padding: 0px 20px;
+    }
+}

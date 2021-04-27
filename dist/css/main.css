@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+body {
+  -webkit-animation-name: fadeIn;
+          animation-name: fadeIn;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0.1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0.1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+img {
+  width: 24.6%;
+}
+
+.container {
+  max-width: 908px;
+  margin: 0 auto;
+  padding: 0px 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 0px 60px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .container {
+    padding: 0px 20px;
+  }
+}
+
+h1 {
+  font-family: "Big Shoulders Display", cursive;
+  font-weight: 700;
+  font-size: 2.32rem;
+  text-transform: uppercase;
+  color: #f2f2f2;
+  padding-top: 28px;
+  letter-spacing: 0.2px;
+}
+
+p {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 0.88rem;
+  color: rgba(255, 255, 255, 0.75);
+  line-height: 1.7;
+  max-width: 12.3rem;
+  padding-top: 25px;
+}
+
+.cars__sedan {
+  background: #e38826;
+}
+
+.cars__suv {
+  background: #006970;
+}
+
+.cars__luxury {
+  background: #004241;
+}
+
+.sedan-btn {
+  color: #e38826;
+}
+
+.suv-btn {
+  color: #006970;
+}
+
+.luxury-btn {
+  color: #004241;
+}
+
+body {
+  background: #f2f2f2;
+}
+
+.cars {
+  padding-top: 161.5px;
+  padding-bottom: 30px;
+}
+
+@media screen and (max-width: 768px) {
+  .cars {
+    padding-top: 100px;
+  }
+}
+
+.cars__grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto auto;
+      grid-template-columns: auto auto auto;
+  border-radius: 8px;
+}
+
+@media screen and (max-width: 768px) {
+  .cars__grid {
+    -ms-grid-columns: auto;
+        grid-template-columns: auto;
+  }
+}
+
+.bg {
+  padding-top: 46px;
+  padding-left: 46px;
+}
+
+button {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 14.2px;
+  border: 2px solid #f2f2f2;
+  border-radius: 50px;
+  margin-top: 80px;
+  margin-bottom: 45px;
+  padding: 11.5px 27.6px;
+}
+
+@media screen and (max-width: 768px) {
+  button {
+    margin-top: 20px;
+  }
+}
+
+button:hover {
+  background: transparent;
+  cursor: pointer;
+  color: #f2f2f2;
+}
+
+span {
+  margin-top: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 14px;
+  color: #006970;
+  word-spacing: 1px;
+}
+
+span a {
+  text-decoration: none;
+  color: #e38826;
+}
+/*# sourceMappingURL=main.css.map */
